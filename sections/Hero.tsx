@@ -25,7 +25,7 @@ export default function Hero({
     { title: "Discord", "href": "https://deco.cx/discord" },
   ],
 }: Props) {
-  console.log("oi");
+  console.log(localStorage.getItem("test"));
   return (
     <header class="lg:container mx-8 md:mx-16 lg:mx-auto mt-8 md:mt-12 mb-28 text-xl md:text-base">
       <div class="mb-10 md:mb-20">
