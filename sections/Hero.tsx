@@ -34,7 +34,7 @@ export default function Hero({
           alt={title}
         />
       </div>
-      <div class="font-bold text-3xl lg:text-6xl leading-tight lg:leading-none xl:w-5/6">
+      <div class="font-bold text-2xl lg:text-6xl leading-tight lg:leading-none xl:w-5/6">
         {headline}
       </div>
       {!!links?.length && (
